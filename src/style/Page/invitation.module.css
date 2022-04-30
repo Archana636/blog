@@ -1,0 +1,22 @@
+.container {
+  font-size: 2rem;
+}
+
+.container > form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.inputWrapper > label {
+  margin: 0 10px;
+}
+/* .inputWrapper > input {
+  /* margin: 0 20px; */
+.error {
+  color: red;
+}
